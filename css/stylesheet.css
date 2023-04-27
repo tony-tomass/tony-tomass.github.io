@@ -1,0 +1,99 @@
+.indexbg {
+    background-color: #000816;
+    background-image: url(IMG_3335.png);
+    background-repeat: no-repeat;
+    background-size: 1625px 575px;
+    background-position: -71px 50px
+}
+
+.mainBanner {
+    position: relative; 
+    top: 5px; 
+    left: 5px;
+}
+
+.navBar {
+    color: cyan !important; 
+    font-size: 145%; 
+    font-family: Jost;
+    position: relative;
+    top: 7px;
+}
+
+.galNav {
+    text-align: center; 
+    font-size: 110%; 
+    top: -30px;
+}
+
+.galIMG {
+    border: 2px solid #005f71; 
+    padding: 7px 7px 7px 7px;
+}
+
+a.ex1:link, a.ex1:visited, a.ex1:active {
+    color: cyan;
+}
+
+a.ex1:hover {
+    color: white !important;
+}
+
+.gallerybg {
+    background-color: #000816;
+    background-image: url(GALLERYBG.png);
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+.unselectable {
+    -drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+.scrolling-image-container {
+    overflow: hidden;
+}
+
+.scrolling-image1 {
+    background: url(../img/loop.png) repeat-x;
+    width: 4096px;
+    height: 655px;
+    animation: bannerMove1 120s linear infinite;
+}
+@keyframes bannerMove1 {
+    0% {
+        transform: translate(0);
+    }
+    100% {
+        transform: translate(-2048px);
+    }
+}
+
+.scrolling-image2 {
+    background: url(../img/Untitled-33.png) repeat-x;
+    width: 5806px;
+    height: 580px;
+    animation: bannerMove2 200s linear infinite;
+}
+@keyframes bannerMove2 {
+    0% {
+        transform: translate(0);
+    }
+    100% {
+        transform: translate(-2903px);
+    }
+}
+
+hr.new1 {
+    border: 1px solid rgb(0, 139, 139);
+  }
+
+  hr.new2 {
+    border: 1px solid rgb(0, 139, 139);
+    width: 50%;
+  }
