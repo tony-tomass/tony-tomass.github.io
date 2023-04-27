@@ -21,9 +21,11 @@
 }
 
 .galNav {
+    font-family: Jost;
+    color: cyan; 
     text-align: center; 
-    font-size: 110%; 
-    top: -30px;
+    font-size: 120%; 
+    background-color: #000816;
 }
 
 .galIMG {
@@ -75,9 +77,9 @@ a.ex1:hover {
 }
 
 .scrolling-image2 {
-    background: url(../img/Untitled-33.png) repeat-x;
+    background: url(../img/loop2.png) repeat-x;
     width: 5806px;
-    height: 580px;
+    height: 655px;
     animation: bannerMove2 200s linear infinite;
 }
 @keyframes bannerMove2 {
