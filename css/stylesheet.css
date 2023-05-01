@@ -63,11 +63,22 @@ a.ex1:hover {
 
 .scrolling-image1 {
     background: url(../img/loop.png) repeat-x;
+    filter: blur(4px);
+    -webkit-filter: blur(4px);
     width: 4096px;
-    height: 655px;
+    height: 725px;
+    -webkit-animation: bannerMove1 120s linear infinite;
     animation: bannerMove1 120s linear infinite;
 }
 @keyframes bannerMove1 {
+    0% {
+        transform: translate(0);
+    }
+    100% {
+        transform: translate(-2048px);
+    }
+}
+@-webkit-keyframes bannerMove1 {
     0% {
         transform: translate(0);
     }
@@ -80,9 +91,18 @@ a.ex1:hover {
     background: url(../img/loop2.png) repeat-x;
     width: 5806px;
     height: 655px;
+    -webkit-animation: bannerMove2 200s linear infinite;
     animation: bannerMove2 200s linear infinite;
 }
 @keyframes bannerMove2 {
+    0% {
+        transform: translate(0);
+    }
+    100% {
+        transform: translate(-2903px);
+    }
+}
+@-webkit-keyframes bannerMove2 {
     0% {
         transform: translate(0);
     }
@@ -101,10 +121,8 @@ hr.new2 {
   }
 
 .fade {
-    -webkit-animation-name: fade;
-    -webkit-animation-duration: 2s;
-    animation-name: fade;
-    animation-duration: 2s;
+    -webkit-animation: fade 6s;
+    animation: fade 6s;
 }
 
 @-webkit-keyframes fade {
@@ -123,4 +141,12 @@ hr.new2 {
     to {
         opacity: 2
     }
+}
+
+.fa {
+    padding: 10px;
+    font-size: 20px;
+    width: 100px;
+    text-align: center;
+    text-decoration: none;
 }
