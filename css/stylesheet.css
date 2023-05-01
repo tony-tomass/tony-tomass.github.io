@@ -120,6 +120,11 @@ hr.new2 {
     width: 50%;
   }
 
+  hr.blogSep {
+    border: 1px dashed rgb(0, 110, 110);
+    width: 70%;
+  }
+
 .fade {
     -webkit-animation: fade 6s;
     animation: fade 6s;
