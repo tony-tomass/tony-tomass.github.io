@@ -67,6 +67,8 @@ a.ex1:hover {
     height: 725px;
     -webkit-animation: bannerMove1 120s linear infinite;
     animation: bannerMove1 120s linear infinite;
+    filter: blur(4px);
+    -webkit-filter: blur(4px);
 }
 @keyframes bannerMove1 {
     0% {
