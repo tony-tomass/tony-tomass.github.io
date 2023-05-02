@@ -63,8 +63,6 @@ a.ex1:hover {
 
 .scrolling-image1 {
     background: url(../img/loop.PNG) repeat-x;
-    filter: blur(4px);
-    -webkit-filter: blur(4px);
     width: 4096px;
     height: 725px;
     -webkit-animation: bannerMove1 120s linear infinite;
