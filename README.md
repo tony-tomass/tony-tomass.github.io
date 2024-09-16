@@ -10,4 +10,4 @@ All changes and notes made during development can be seen in the [Changelog](htt
  - Home, Gallery, and About Pages
  - Image gallery that allows user to click on image to open in new tab
 
-![Preview](https://github.com/tony-tomass/art-portfolio/blob/main/ver-2024-01-08.png)
+![Preview](https://github.com/tony-tomass/tony-tomass.github.io/blob/main/ver-2024-01-08.png)
