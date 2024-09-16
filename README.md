@@ -16,4 +16,4 @@ Features:
 - Skeleton blog page previews
 - Basic gallery and about me pages
 
-![Preview](https://github.com/tony-tomass/tony-tomass.github.io/blob/main/ver-2024-01-08.png)
+![Preview](https://github.com/tony-tomass/tony-tomass.github.io/blob/main/version0_preview.jpg)
