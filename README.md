@@ -6,10 +6,19 @@ achieve, the website will be able to present everything in a more visually appea
 
 The original version of this website, as well as any other major versions that were made prior to the latest can also be found on the website.
 
-## Changelog
-### Version 0
+# Changelog
+## Version 1
 
-Version 0 refers to the original version of the website that was developed during my Web Design class. It focuses more on basic design fundamentals rather than any web functionalities, and is a lot more informal and casual in tone.
+### v1.2024.09.16 (Current)
+Revamped version of version 0 made to be more simple and a bit more professional.
+Features and Changes:
+- Three main pages: About, Gallery, and Other
+- Art gallery is now the main page, featuring some hovering visuals to help spotlight specific pieces
+- About and other pages link to old version while new versions are under construction
+
+## Version 0
+
+Version 0 refers to the original version of the website that was developed during my 2023 Web Design class. It focuses more on basic design fundamentals rather than any web functionalities, and is a lot more informal and casual in tone.
 
 Features:
 - Looping background image
