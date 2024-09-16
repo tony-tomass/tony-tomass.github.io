@@ -12,6 +12,7 @@ Revamped version of version 0 made to be more simple and a bit more professional
 Features and Changes:
 - Three main pages: About, Gallery, and Other
 - Art gallery is now the main page, featuring some hovering visuals to help spotlight specific pieces
+- Images changed from PNG to AVIF for fasting loading
 - About and other pages link to old version while new versions are under construction
 
 ## Version 0
