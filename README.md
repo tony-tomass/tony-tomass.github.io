@@ -1,13 +1,19 @@
-# My Art Portfolio Website
+# My Portfolio Website
 
-This is a website made to showcase the different art-related projects I made over the years. The purpose of this website is to provide myself with a better way to showcase my own works in a simple manner and in a way that would be easy to update frequently.
-It mainly focuses on my digital art but will also showcase other projects related to things like video-editing, video game development, graphic design, etc. This website is similar to my other [website](https://github.com/tony-tomass/tony-tomass.github.io) 
-project created several months prior for my web development class. Unlike that one, this website will be worked on during my own personal time with more emphasis on professionalism. 
+Originally made to showcase my art portfolio developed during my Spring 2023 Web Design class, this website is used now to showcase and archive most if not all of my works - whether it be professional, as a hobby, or just for fun - in one simple to manage
+and easy-to-access place. The goal is to frequently update this repo, and by extension the website, with previews and links to each kind of project that I have developed or worked on. While GitHub basically already does most of the things this website aims to
+achieve, the website will be able to present everything in a more visually appealing and cohesive way that would've been more difficult to accomplish by just using GitHub alone.
 
-## Features (as of 1/8/2024)
-All changes and notes made during development can be seen in the [Changelog](https://github.com/tony-tomass/art-portfolio/blob/main/changelog.txt) text file
+The original version of this website, as well as any other major versions that were made prior to the latest can also be found on the website.
 
- - Home, Gallery, and About Pages
- - Image gallery that allows user to click on image to open in new tab
+## Changelog
+### Version 0
+
+Version 0 refers to the original version of the website that was developed during my Web Design class. It focuses more on basic design fundamentals rather than any web functionalities, and is a lot more informal and casual in tone.
+
+Features:
+- Looping background image
+- Skeleton blog page previews
+- Basic gallery and about me pages
 
 ![Preview](https://github.com/tony-tomass/tony-tomass.github.io/blob/main/ver-2024-01-08.png)
