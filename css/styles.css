@@ -1,0 +1,58 @@
+.galIMG_OLD {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    object-position: center;
+    border-style: solid;
+    border-color: black;
+}
+
+.galIMG_OLD:hover {
+    width: 440px;
+    cursor: pointer;
+    border-style: solid;
+    border-color: aqua;
+    transition: 0.4s;
+}
+
+.galIMG {
+    width: 400px;
+    height: 400px;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+.galIMG:hover {
+    cursor: pointer; 
+    transform: scale(0.9);
+    transition: 0.75s;
+}
+
+
+.galIMG_container {
+    overflow: hidden;
+    border-style: solid;
+    border-color: black;
+}
+.galIMG_container:hover {
+    border-style: solid;
+    border-color: aqua;
+    transition: 0.2s;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    font-family: Jost;
+}
+
+h2 {
+    font-family: Jost;
+}
+
+a:visited {
+    color:white;
+    text-decoration: none;
+}
