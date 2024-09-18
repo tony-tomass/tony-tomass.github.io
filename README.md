@@ -13,7 +13,6 @@ The original version of this website, as well as any other major versions that w
 
 ### v1.2024.09.16
 Revamped version of version 0 made to be more simple and a bit more professional.
-Features and Changes:
 - Three main pages: About, Gallery, and Other
 - Art gallery is now the main page, featuring some hovering visuals to help spotlight specific pieces
 - Images changed from PNG to AVIF for fasting loading
