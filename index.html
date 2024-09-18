@@ -50,64 +50,64 @@
         <div class="container" style="display: flex; max-width: 100vw; width: 100%; flex-wrap: wrap; justify-content: center; padding-top: 20px; overflow: hidden;">
 
             <div class="galIMG_container">
-                <img class="galIMG" src="img/gallery_preview/IMG_9201_1_preview.avif" loading="eager">
+                <img class="galIMG" src="img/gallery_preview/IMG_9201_1_preview.avif" loading="eager" role="presentation">
             </div>
             <div class="galIMG_container">
-                <img class="galIMG" src="img/gallery_preview/IMG_9200_4_preview.avif" loading="eager">
+                <img class="galIMG" src="img/gallery_preview/IMG_9200_4_preview.avif" loading="eager" role="presentation">
             </div>
             <div class="galIMG_container">
-                <img class="galIMG" src="img/gallery_preview/IMG_9199_preview.avif" loading="eager">
+                <img class="galIMG" src="img/gallery_preview/IMG_9199_preview.avif" loading="eager" role="presentation">
             </div>
             <div class="galIMG_container">
-                <img class="galIMG" src="img/gallery_preview/IMG_9198_c_preview.avif" loading="eager">
+                <img class="galIMG" src="img/gallery_preview/IMG_9198_c_preview.avif" loading="eager" role="presentation">
             </div>
             <div class="galIMG_container">
-                <img class="galIMG" src="img/gallery_preview/IMG_9196_preview.avif" loading="eager">
+                <img class="galIMG" src="img/gallery_preview/IMG_9196_preview.avif" loading="eager" role="presentation">
             </div>
             <div class="galIMG_container">
-                <img class="galIMG" src="img/gallery_preview/IMG_9195_preview.avif" loading="eager">
+                <img class="galIMG" src="img/gallery_preview/IMG_9195_preview.avif" loading="eager" role="presentation">
             </div>
             <div class="galIMG_container">
-                <img class="galIMG" src="img/gallery_preview/IMG_9194_noise_preview.avif" loading="eager">
+                <img class="galIMG" src="img/gallery_preview/IMG_9194_noise_preview.avif" loading="eager" role="presentation">
             </div>
             <div class="galIMG_container">
-                <img class="galIMG" src="img/gallery_preview/IMG_9193_0_preview.avif" loading="eager">
+                <img class="galIMG" src="img/gallery_preview/IMG_9193_0_preview.avif" loading="eager" role="presentation">
             </div>
             <div class="galIMG_container">
-                <img class="galIMG" src="img/gallery_preview/IMG_9192_0_preview.avif" loading="lazy">
+                <img class="galIMG" src="img/gallery_preview/IMG_9192_0_preview.avif" loading="lazy" role="presentation">
             </div>
             <div class="galIMG_container">
-                <img class="galIMG" src="img/gallery_preview/IMG_9191_1_preview.avif" loading="lazy">
+                <img class="galIMG" src="img/gallery_preview/IMG_9191_1_preview.avif" loading="lazy" role="presentation">
             </div>
             <div class="galIMG_container">
-                <img class="galIMG" src="img/gallery_preview/IMG_9190___preview.avif" loading="lazy">
+                <img class="galIMG" src="img/gallery_preview/IMG_9190___preview.avif" loading="lazy" role="presentation">
             </div>
             <div class="galIMG_container">
-                <img class="galIMG" src="img/gallery_preview/IMG_9189_preview.avif" loading="lazy">
+                <img class="galIMG" src="img/gallery_preview/IMG_9189_preview.avif" loading="lazy" role="presentation">
             </div>
             <div class="galIMG_container">
-                <img class="galIMG" src="img/gallery_preview/IMG_9188 (3)_preview.avif" loading="lazy">
+                <img class="galIMG" src="img/gallery_preview/IMG_9188 (3)_preview.avif" loading="lazy" role="presentation">
             </div>
             <div class="galIMG_container">
-                <img class="galIMG" src="img/gallery_preview/IMG_9187_0f_preview.avif" loading="lazy">
+                <img class="galIMG" src="img/gallery_preview/IMG_9187_0f_preview.avif" loading="lazy" role="presentation">
             </div>
             <div class="galIMG_container">
-                <img class="galIMG" src="img/gallery_preview/IMG_9186_0_preview.avif" loading="lazy">
+                <img class="galIMG" src="img/gallery_preview/IMG_9186_0_preview.avif" loading="lazy" role="presentation">
             </div>
             <div class="galIMG_container">
-                <img class="galIMG" src="img/gallery_preview/IMG_9185_0_preview.avif" loading="lazy">
+                <img class="galIMG" src="img/gallery_preview/IMG_9185_0_preview.avif" loading="lazy" role="presentation">
             </div>
             <div class="galIMG_container">
-                <img class="galIMG" src="img/gallery_preview/IMG_9184_preview.avif" loading="lazy">
+                <img class="galIMG" src="img/gallery_preview/IMG_9184_preview.avif" loading="lazy" role="presentation">
             </div>
             <div class="galIMG_container">
-                <img class="galIMG" src="img/gallery_preview/IMG_9183_preview.avif" loading="lazy">
+                <img class="galIMG" src="img/gallery_preview/IMG_9183_preview.avif" loading="lazy" role="presentation">
             </div>
             <div class="galIMG_container">
-                <img class="galIMG" src="img/gallery_preview/IMG_9182_preview.avif" loading="lazy">
+                <img class="galIMG" src="img/gallery_preview/IMG_9182_preview.avif" loading="lazy" role="presentation">
             </div>
             <div class="galIMG_container">
-                <img class="galIMG" src="img/gallery_preview/IMG_9181_0_preview.avif" loading="lazy">
+                <img class="galIMG" src="img/gallery_preview/IMG_9181_0_preview.avif" loading="lazy" role="presentation">
             </div>
 
         </div>
@@ -116,25 +116,7 @@
             <p style="color: aqua; text-align: center; font-size: 250%;">. . .</p>
         </footer>
 
-        <script>
-
-            const gal_img_container = document.querySelectorAll(".galIMG_container")
-            gal_img.forEach(div => {
-                const gal_img = div.querySelector("img")
-
-                function loaded() {
-                    div.classList.add("loaded")
-                }
-
-                if (gal_img.complete) {
-                    loaded()
-                }
-                else {
-                    gal_img.addEventListener("load", loaded)
-                }
-            })
-
-        </script>
+        <script src="js/img_load.js"></script>
 
     </body>
 </html>

@@ -40,6 +40,13 @@
     border-color: aqua;
     transition: 0.2s;
 }
+.galIMG_container.loaded > img {
+    opacity: 1;
+}
+.galIMG_container > img {
+    opacity: 0;
+    transition: opacity 0.75s;
+}
 
 a {
     text-decoration: none;
