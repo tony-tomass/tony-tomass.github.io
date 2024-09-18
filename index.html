@@ -116,5 +116,25 @@
             <p style="color: aqua; text-align: center; font-size: 250%;">. . .</p>
         </footer>
 
+        <script>
+
+            const gal_img_container = document.querySelectorAll(".galIMG_container")
+            gal_img.forEach(div => {
+                const gal_img = div.querySelector("img")
+
+                function loaded() {
+                    div.classList.add("loaded")
+                }
+
+                if (gal_img.complete) {
+                    loaded()
+                }
+                else {
+                    gal_img.addEventListener("load", loaded)
+                }
+            })
+
+        </script>
+
     </body>
 </html>
