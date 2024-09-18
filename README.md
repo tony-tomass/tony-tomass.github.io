@@ -7,7 +7,11 @@ The original version of this website, as well as any other major versions that w
 # Changelog
 ## Version 1
 
-### v1.2024.09.16 (Current)
+### v1.2024.09.18 (Current)
+- Preview images added to gallery page to help optimize loading speeds
+- Fade-in images upon loading
+
+### v1.2024.09.16
 Revamped version of version 0 made to be more simple and a bit more professional.
 Features and Changes:
 - Three main pages: About, Gallery, and Other
