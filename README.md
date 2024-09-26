@@ -7,7 +7,10 @@ The original version of this website, as well as any other major versions that w
 # Changelog
 ## Version 1
 
-### v1.2024.09.18 (Current)
+### v1.2024.09.25 (Current)
+- Added a basic lightbox to gallery (click an image to get a full showcase)
+
+### v1.2024.09.18
 - Preview images added to gallery page to help optimize loading speeds
 - Fade-in images upon loading
 
