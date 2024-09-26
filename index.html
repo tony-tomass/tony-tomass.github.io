@@ -1,11 +1,15 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link rel="icon" type="image/png" sizes="32x32" href="img/favicon_io/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="img/favicon_io/favicon-16x16.png">
+        <link rel="manifest" href="img/favicon_io/site.webmanifest">
         <link rel="stylesheet" href="css/styles.css">
         <link rel="stylesheet" href="css/slideshow.css">
+        <link rel="stylesheet" href="css/lightbox.css">
         <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;700&display=swap" rel="stylesheet">
         <title>
-            HOME
+            tony-tomass | Gallery
         </title>
     </head>
     <body style="background-color: black; margin: 0;">
@@ -50,40 +54,40 @@
         <div class="container" style="display: flex; max-width: 100vw; width: 100%; flex-wrap: wrap; justify-content: center; padding-top: 20px; overflow: hidden;">
 
             <div class="galIMG_container">
-                <img class="galIMG" src="img/gallery_preview/IMG_9201_1_preview.avif" loading="eager" role="presentation">
+                <img class="galIMG" src="img/gallery_preview/IMG_9201_1_preview.avif" loading="eager" role="presentation" onclick="openIMG(); currentSlide(1)" >
             </div>
             <div class="galIMG_container">
-                <img class="galIMG" src="img/gallery_preview/IMG_9200_4_preview.avif" loading="eager" role="presentation">
+                <img class="galIMG" src="img/gallery_preview/IMG_9200_4_preview.avif" loading="eager" role="presentation" onclick="openIMG(); currentSlide(2)">
             </div>
             <div class="galIMG_container">
-                <img class="galIMG" src="img/gallery_preview/IMG_9199_preview.avif" loading="eager" role="presentation">
+                <img class="galIMG" src="img/gallery_preview/IMG_9199_preview.avif" loading="eager" role="presentation" onclick="openIMG(); currentSlide(3)">
             </div>
             <div class="galIMG_container">
-                <img class="galIMG" src="img/gallery_preview/IMG_9198_c_preview.avif" loading="eager" role="presentation">
+                <img class="galIMG" src="img/gallery_preview/IMG_9198_c_preview.avif" loading="eager" role="presentation" onclick="openIMG(); currentSlide(4)">
             </div>
             <div class="galIMG_container">
-                <img class="galIMG" src="img/gallery_preview/IMG_9196_preview.avif" loading="eager" role="presentation">
+                <img class="galIMG" src="img/gallery_preview/IMG_9196_preview.avif" loading="eager" role="presentation" onclick="openIMG(); currentSlide(5)">
             </div>
             <div class="galIMG_container">
-                <img class="galIMG" src="img/gallery_preview/IMG_9195_preview.avif" loading="eager" role="presentation">
+                <img class="galIMG" src="img/gallery_preview/IMG_9195_preview.avif" loading="eager" role="presentation" onclick="openIMG(); currentSlide(6)">
             </div>
             <div class="galIMG_container">
-                <img class="galIMG" src="img/gallery_preview/IMG_9194_noise_preview.avif" loading="eager" role="presentation">
+                <img class="galIMG" src="img/gallery_preview/IMG_9194_noise_preview.avif" loading="eager" role="presentation" onclick="openIMG(); currentSlide(7)">
             </div>
             <div class="galIMG_container">
-                <img class="galIMG" src="img/gallery_preview/IMG_9193_0_preview.avif" loading="eager" role="presentation">
+                <img class="galIMG" src="img/gallery_preview/IMG_9193_0_preview.avif" loading="eager" role="presentation" onclick="openIMG(); currentSlide(8)">
             </div>
             <div class="galIMG_container">
-                <img class="galIMG" src="img/gallery_preview/IMG_9192_0_preview.avif" loading="lazy" role="presentation">
+                <img class="galIMG" src="img/gallery_preview/IMG_9192_0_preview.avif" loading="lazy" role="presentation" onclick="openIMG(); currentSlide(9)">
             </div>
             <div class="galIMG_container">
-                <img class="galIMG" src="img/gallery_preview/IMG_9191_1_preview.avif" loading="lazy" role="presentation">
+                <img class="galIMG" src="img/gallery_preview/IMG_9191_1_preview.avif" loading="lazy" role="presentation" onclick="openIMG(); currentSlide(10)">
             </div>
             <div class="galIMG_container">
-                <img class="galIMG" src="img/gallery_preview/IMG_9190___preview.avif" loading="lazy" role="presentation">
+                <img class="galIMG" src="img/gallery_preview/IMG_9190___preview.avif" loading="lazy" role="presentation" onclick="openIMG(); currentSlide(11)">
             </div>
             <div class="galIMG_container">
-                <img class="galIMG" src="img/gallery_preview/IMG_9189_preview.avif" loading="lazy" role="presentation">
+                <img class="galIMG" src="img/gallery_preview/IMG_9189_preview.avif" loading="lazy" role="presentation" onclick="openIMG(); currentSlide(12)">
             </div>
             <div class="galIMG_container">
                 <img class="galIMG" src="img/gallery_preview/IMG_9188 (3)_preview.avif" loading="lazy" role="presentation">
@@ -112,11 +116,110 @@
 
         </div>
 
+        <div id="myIMG" class="modal">
+
+            <span class="close cursor" onclick="closeIMG()">&times;</span>
+            
+            <div class="modal_content">
+
+                <div class="mySlides">
+                    <img src="img/gallery_avif/IMG_9201_1.avif" style="max-width: 100%; max-height: 86vh;">
+                </div>
+                <div class="mySlides">
+                    <img src="img/gallery_avif/IMG_9200_4.avif" style="max-width: 100%; max-height: 86vh;">
+                </div>
+                <div class="mySlides">
+                    <!--<div class="numbertext">3 / ?</div>-->
+                    <img src="img/gallery_avif/IMG_9199.avif" style="max-width: 100%; max-height: 86vh;">
+                </div>
+                <div class="mySlides">
+                    <img src="img/gallery_avif/IMG_9198_c.avif" style="max-width: 100%; max-height: 86vh;">
+                </div>
+                <div class="mySlides">
+                    <img src="img/gallery_avif/IMG_9196.avif" style="max-width: 100%; max-height: 86vh;">
+                </div>
+                <div class="mySlides">
+                    <img src="img/gallery_avif/IMG_9195.avif" style="max-width: 100%; max-height: 86vh;">
+                </div>
+                <div class="mySlides">
+                    <img src="img/gallery_avif/IMG_9194_noise.avif" style="max-width: 100%; max-height: 86vh;">
+                </div>
+                <div class="mySlides">
+                    <img src="img/gallery_avif/IMG_9193_0.avif" style="max-width: 100%; max-height: 86vh;">
+                </div>
+                <div class="mySlides">
+                    <img src="img/gallery_avif/IMG_9192_0.avif" style="max-width: 100%; max-height: 86vh;">
+                </div>
+                <div class="mySlides">
+                    <img src="img/gallery_avif/IMG_9191_1.avif" style="max-width: 100%; max-height: 86vh;">
+                </div>
+                <div class="mySlides">
+                    <img src="img/gallery_avif/IMG_9190__.avif" style="max-width: 100%; max-height: 86vh;">
+                </div>
+                <div class="mySlides">
+                    <img src="img/gallery_avif/IMG_9189.avif" style="max-width: 100%; max-height: 86vh;">
+                </div>
+
+                <!--
+                <div class="caption_container">
+                    <p id="caption"></p>
+                </div>
+                -->
+
+            </div>
+
+            <a class="prev" onclick="nextSlide(-1)">&#10094;</a>
+            <a class="next" onclick="nextSlide(1)">&#10095;</a>
+
+            <div style="position: fixed; left: 0; bottom: 0; width: 100%; text-align: center;">
+                <div class="column">
+                    <img class="demo" src="img/gallery_preview/IMG_9201_1_preview.avif" onclick="currentSlide(1)" alt="9201">
+                </div>
+                <div class="column">
+                    <img class="demo" src="img/gallery_preview/IMG_9200_4_preview.avif" onclick="currentSlide(2)" alt="9200">
+                </div>
+                <div class="column">
+                    <img class="demo" src="img/gallery_preview/IMG_9199_preview.avif" onclick="currentSlide(3)" alt="9199">
+                </div>
+                <div class="column">
+                    <img class="demo" src="img/gallery_preview/IMG_9198_c_preview.avif" onclick="currentSlide(4)" alt="9198">
+                </div>
+                <div class="column">
+                    <img class="demo" src="img/gallery_preview/IMG_9196_preview.avif" onclick="currentSlide(5)">
+                </div>
+                <div class="column">
+                    <img class="demo" src="img/gallery_preview/IMG_9195_preview.avif" onclick="currentSlide(6)">
+                </div>
+                <div class="column">
+                    <img class="demo" src="img/gallery_preview/IMG_9194_noise_preview.avif" onclick="currentSlide(7)">
+                </div>
+                <div class="column">
+                    <img class="demo" src="img/gallery_preview/IMG_9193_0_preview.avif" onclick="currentSlide(8)">
+                </div>
+                <div class="column">
+                    <img class="demo" src="img/gallery_preview/IMG_9192_0_preview.avif" onclick="currentSlide(9)">
+                </div>
+                <div class="column">
+                    <img class="demo" src="img/gallery_preview/IMG_9191_1_preview.avif" onclick="currentSlide(10)">
+                </div>
+                <div class="column">
+                    <img class="demo" src="img/gallery_preview/IMG_9190___preview.avif" onclick="currentSlide(11)">
+                </div>
+                <div class="column">
+                    <img class="demo" src="img/gallery_preview/IMG_9189_preview.avif" onclick="currentSlide(12)">
+                </div>
+
+            </div>
+
+        </div>
+
+
         <footer style="border-bottom: 2px solid aqua;">
             <p style="color: aqua; text-align: center; font-size: 250%;">. . .</p>
         </footer>
 
         <script src="js/img_load.js"></script>
+        <script src="js/img_lightbox.js"></script>
 
     </body>
 </html>
