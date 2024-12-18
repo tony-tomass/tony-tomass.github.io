@@ -8,7 +8,15 @@ The original version of this website, as well as any other major versions that w
 # Changelog
 ## Version 1
 
-### v1.2024.09.25 (Current)
+### v1.2024.12.18 (Current)
+- Added React implementation
+  - Uses Vite for development
+- Deployed using GitHub Pages NPM Package
+- Gallery now uses the [lightGallery](https://www.lightgalleryjs.com/) React Plugin for the lightbox
+- Added "pseudo-dynamic" image loading using Cloudinary and React Mapping
+  - Basically uses a mock api obtained from Postman that accesses URLs to the images stored on Cloudinary
+
+### v1.2024.09.25
 - Added a basic lightbox to gallery (click an image to get a full showcase)
 
 ### v1.2024.09.18
