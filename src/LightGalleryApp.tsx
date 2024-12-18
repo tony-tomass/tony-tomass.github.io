@@ -1,0 +1,42 @@
+import LightGallery from 'lightgallery/react';
+
+// import styles
+import 'lightgallery/css/lightgallery.css';
+import 'lightgallery/css/lg-zoom.css';
+import 'lightgallery/css/lg-thumbnail.css';
+import './assets/css/gallery.css'
+
+// import plugins if you need
+import lgZoom from 'lightgallery/plugins/zoom';
+
+import React, { useState } from 'react'
+import images from './assets/json/api-mock.json'
+
+function LightGalleryApp() {
+    const onInit = () => {
+        console.log('lightGallery has been initialized');
+    };
+
+    const [imageList, setImageList] = useState(images.resources)
+
+    return (
+        <>  
+            <LightGallery
+                onInit={onInit}
+                speed={500}
+                plugins={[lgZoom]}
+                download={false}
+                counter={false}
+                elementClassNames={'container-1'}
+            >   
+                {imageList.map((image) => (
+                    <a href={image.url} className='image-grid'>
+                        <img className='image-gal' src={image.url} alt={image.public_id}></img>
+                    </a>
+                ))}
+            </LightGallery>
+        </>
+    );
+}
+
+export default LightGalleryApp;
