@@ -9,7 +9,7 @@ import './assets/css/gallery.css'
 // import plugins if you need
 import lgZoom from 'lightgallery/plugins/zoom';
 
-import React, { useState } from 'react'
+import { useState } from 'react'
 import images from './assets/json/api-mock.json'
 
 function LightGalleryApp() {
@@ -18,6 +18,8 @@ function LightGalleryApp() {
     };
 
     const [imageList, setImageList] = useState(images.resources)
+    
+    console.log(setImageList) // Dummy line
 
     return (
         <>  
