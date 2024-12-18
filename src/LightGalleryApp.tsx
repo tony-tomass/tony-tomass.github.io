@@ -37,6 +37,7 @@ function LightGalleryApp() {
                     </a>
                 ))}
             </LightGallery>
+            <h1> Hello guy </h1>
         </>
     );
 }
