@@ -13,6 +13,7 @@ The original version of this website, as well as any other major versions that w
   - Uses Vite for development
 - Deployed using GitHub Pages NPM Package
 - Gallery now uses the [lightGallery](https://www.lightgalleryjs.com/) React Plugin for the lightbox
+  - As of this version, images are not properly displaying
 - Added "pseudo-dynamic" image loading using Cloudinary and React Mapping
   - Basically uses a mock api obtained from Postman that accesses URLs to the images stored on Cloudinary
 
