@@ -9,13 +9,13 @@ The original version of this website, as well as any other major versions that w
 ## Version 1
 
 ### v1.2024.12.18 (Current)
-- Added React implementation
-  - Uses Vite for development
-- Deployed using GitHub Pages NPM Package
+New development tools are now being used for the website
+- React and Vite for implementation and development
+- Deployed using the [GitHub Pages NPM Package](https://github.com/gitname/react-gh-pages)
 - Gallery now uses the [lightGallery](https://www.lightgalleryjs.com/) React Plugin for the lightbox
-  - As of this version, images are not properly displaying
-- Added "pseudo-dynamic" image loading using Cloudinary and React Mapping
-  - Basically uses a mock api obtained from Postman that accesses URLs to the images stored on Cloudinary
+  - ~~As of this version, images are not properly displaying~~ Works now!
+- Added "pseudo-dynamic" image loading using the [Cloudinary Visual Media Platform](https://cloudinary.com/) and React Mapping
+  - Basically uses a mock api JSON file for accessing URLs to the images stored on Cloudinary
 
 ### v1.2024.09.25
 - Added a basic lightbox to gallery (click an image to get a full showcase)
