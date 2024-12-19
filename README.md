@@ -14,7 +14,7 @@ New development tools are now being used for the website
 - Deployed using the [GitHub Pages NPM Package](https://github.com/gitname/react-gh-pages)
 - Gallery now uses the [lightGallery](https://www.lightgalleryjs.com/) React Plugin for the lightbox
   - ~~As of this version, images are not properly displaying~~ Works now!
-- Added "pseudo-dynamic" image loading using the [Cloudinary Visual Media Platform](https://cloudinary.com/) and React Mapping
+- Added "pseudo-dynamic" image loading using the [Cloudinary Visual Media Platform](https://cloudinary.com/)
   - Basically uses a mock api JSON file for accessing URLs to the images stored on Cloudinary
 
 ### v1.2024.09.25
