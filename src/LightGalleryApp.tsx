@@ -33,11 +33,10 @@ function LightGalleryApp() {
             >   
                 {imageList.map((image) => (
                     <a href={image.url} className='image-grid'>
-                        <img className='image-gal' src={image.url} alt={image.public_id}></img>
+                        <img className='image-gal' src={image.secure_url} alt={image.public_id}></img>
                     </a>
                 ))}
             </LightGallery>
-            <h1> Hello guy </h1>
         </>
     );
 }
