@@ -33,7 +33,7 @@ function LightGalleryApp() {
             >   
                 {imageList.map((image) => (
                     <a href={image.secure_url} className='image-grid'>
-                        <img className='image-gal' src={image.secure_url} alt={image.public_id}></img>
+                        <img className='image-gal fade' src={image.secure_url} alt=" " loading='lazy'></img>
                     </a>
                 ))}
             </LightGallery>

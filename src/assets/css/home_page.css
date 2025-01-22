@@ -1,0 +1,46 @@
+/* For the navigation stuff ======================== */
+
+.fancy-div{
+    width: 300px;
+    transform: skew(-19.5deg);
+    position: absolute;
+}
+
+.fancy-img{
+    opacity: 0;
+}
+
+.fancy-img:hover{
+    opacity: 1;
+}
+
+
+/* For the vertical sliding image ======================== */
+
+.sliding-container {
+    overflow: hidden;
+    transform: skew(-19.5deg);
+}
+
+.sliding-background {
+    background: url(../img/home_page/char_select_S.png) repeat-y;
+    height: 1674px; /* Image height x 3 */
+    width: 44px;
+    animation: slide 10s linear infinite;
+}
+
+.sliding-background-rev {
+    background: url(../img/home_page/char_select_S.png) repeat-y;
+    height: 1674px; /* Image height x 3 */
+    width: 44px;
+    animation: slide 10s linear reverse infinite;
+}
+
+@keyframes slide {
+    0% {
+      transform: translate3d(0, 0, 0);
+    }
+    100% {
+      transform: translate3d(0, -558px, 0); /* Image height */
+    }
+  }
