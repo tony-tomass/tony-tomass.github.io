@@ -10,7 +10,7 @@ import './assets/css/gallery.css'
 import lgZoom from 'lightgallery/plugins/zoom';
 
 import { useState } from 'react'
-import images from './assets/json/api-mock.json'
+import images from './api-mock.json'
 
 function LightGalleryApp() {
     const onInit = () => {
