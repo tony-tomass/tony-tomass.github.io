@@ -5,10 +5,18 @@ Originally made to showcase my art portfolio developed during my Spring 2023 Web
 
 The original version of this website, as well as any other major versions that were made prior to the latest can also be found on the website.
 
+Click [here](https://tony-tomass.github.io/home/) to visit the website.
+
 # Changelog
 ## Version 1
 
-### v1.2024.12.18 (Current)
+### v1.2025.01.22 (Current)
+A new home page has now been added, featuring basic, but real cool hovering effects and other visuals.
+As of this version, the home page is restricted to a specific screen resolution (ie not responsive), so
+how well the home page looks will vary, especially for mobile users. Some features may also be restricted
+depending on the browser and its version.
+
+### v1.2024.12.18
 New development tools are now being used for the website
 - React and Vite for implementation and development
 - Deployed using the [GitHub Pages NPM Package](https://github.com/gitname/react-gh-pages)
