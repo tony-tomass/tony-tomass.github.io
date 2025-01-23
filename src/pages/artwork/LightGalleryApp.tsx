@@ -11,6 +11,7 @@ import lgZoom from 'lightgallery/plugins/zoom';
 
 import { useState } from 'react'
 import images from './api-mock.json'
+import logo from '../home/img/logo.png'
 
 function LightGalleryApp() {
     const onInit = () => {
@@ -26,7 +27,7 @@ function LightGalleryApp() {
             <div className="nav-container">
                 <div className="nav-logo">
                     <a href="../home/index.html">
-                        <img src="../home/img/logo.png" className="logo" />
+                        <img src={logo} className="logo" />
                     </a>
                 </div>
                 <div className="nav-button">
