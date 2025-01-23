@@ -48,4 +48,4 @@ Features:
 - Skeleton blog page previews
 - Basic gallery and about me pages
 
-![Preview](https://github.com/tony-tomass/tony-tomass.github.io/blob/main/version0_preview.jpg)
+![Preview](https://github.com/tony-tomass/tony-tomass.github.io/blob/main/previews/version0_preview.jpg)

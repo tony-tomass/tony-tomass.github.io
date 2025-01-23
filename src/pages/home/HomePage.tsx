@@ -39,157 +39,111 @@ function HomePage() {
 
     return (
         <>
-            <div
-                style={{
-                    width: 1536,
-                    height: 864,
-                    position: "relative",
-                    backgroundColor: "black",
-                    margin: "20px auto",
-                    overflow: "hidden"
-                }}
-            >
+            <div className="nav-container">
+
                 <div>
-                    <img
-                        src={logo}
-                        style={{ width: 950, paddingLeft: 272, transform: "skew(-19.5deg)" }}
-                    />
+                    <img src={logo} className="logo"/>
                 </div>
-                <div className="fancy-div">
+
+                <div className="nav-div">
                     <img
                         src={aboutImage}
-                        style={{ width: "auto", height: 864, position: "absolute", left: 548 }}
+                        className="nav-img"
+                        style={{ left: 548 }}
                     />
                     <a href="wip.html">
                         <img
-                            className="fancy-img"
                             src={aboutImageHov}
-                            style={{ width: "auto", height: 864, position: "absolute", left: 548 }}
+                            className="nav-img hovering"
+                            style={{ left: 548 }}
                             onMouseOver={handleMouseOverAbout}
                             onMouseOut={handleMouseOut}
                         />
                     </a>
                 </div>
-                <div className="fancy-div">
+                <div className="nav-div">
                     <img
                         src={artImage}
-                        style={{ width: "auto", height: 864, position: "absolute", left: 790 }}
+                        className="nav-img"
+                        style={{ left: 790 }}
                     />
                     <a href="../artwork/index.html">
                         <img
-                            className="fancy-img"
                             src={artImageHov}
-                            style={{ width: "auto", height: 864, position: "absolute", left: 790 }}
+                            className="nav-img hovering"
+                            style={{ left: 790 }}
                             onMouseOver={handleMouseOverArt}
                             onMouseOut={handleMouseOut}
                         />
                     </a>
                 </div>
-                <div className="fancy-div">
+                <div className="nav-div">
                     <img
                         src={projectImage}
-                        style={{ width: "auto", height: 864, position: "absolute", left: 1032 }}
+                        className="nav-img"
+                        style={{ left: 1032 }}
                     />
                     <a href="wip.html">
                         <img
-                            className="fancy-img"
                             src={projectImageHov}
-                            style={{ width: "auto", height: 864, position: "absolute", left: 1032 }}
+                            className="nav-img hovering"
+                            style={{ left: 1032 }}
                             onMouseOver={handleMouseOverProjects}
                             onMouseOut={handleMouseOut}
                         />
                     </a>
                 </div>
-                <div className="fancy-div">
+                <div className="nav-div">
                     <img
                         src={otherImage}
-                        style={{ width: "auto", height: 864, position: "absolute", left: 1274 }}
+                        className="nav-img"
+                        style={{ left: 1274 }}
                     />
                     <a href="wip.html">
                         <img
-                            className="fancy-img"
                             src={otherImageHov}
-                            style={{ width: "auto", height: 864, position: "absolute", left: 1274 }}
+                            className="nav-img hovering"
+                            style={{ left: 1274 }}
                             onMouseOver={handleMouseOverOther}
                             onMouseOut={handleMouseOut}
                         />
                     </a>
                 </div>
+
                 <div
                     className="sliding-container"
                     style={{
-                        position: "absolute",
                         left: 190,
                         paddingLeft: 5,
                         borderLeft: "solid aqua 3px"
                     }}
                 >
-                    <div className="sliding-background-rev" />
+                    <div className="sliding-background slide-down" />
                 </div>
                 <div
                     className="sliding-container"
                     style={{
-                        position: "absolute",
                         left: 1225,
                         paddingRight: 5,
                         borderRight: "solid aqua 3px"
                     }}
                 >
-                    <div className="sliding-background" />
+                    <div className="sliding-background slide-up" />
                 </div>
-                <h1
-                    style={{
-                        color: "rgb(0, 140, 170)",
-                        position: "absolute",
-                        top: 85,
-                        fontSize: 27,
-                        transform: "skew(-19.5deg)",
-                        textAlign: "left",
-                        width: 559,
-                        margin: 0,
-                        padding: 0
-                    }}
-                >
+
+                <h1 className='title-subtext'>
                     SELECT A CHARACTER TO GO TO A PAGE
                 </h1>
-                <h1
-                    id="page_title"
-                    style={{
-                        color: "rgb(255, 255, 255)",
-                        position: "absolute",
-                        top: 112,
-                        left: 0,
-                        fontSize: 76,
-                        transform: "skew(-19.5deg)",
-                        textAlign: "right",
-                        width: 470,
-                        height: 85,
-                        margin: 0,
-                        padding: 0,
-                        borderBottom: "solid aqua 3px",
-                        lineHeight: 1.22,
-                    }}
-                >
+                <h1 id="page_title" className='title-text'>
                     {text}
                 </h1>
-                <p
-                    id="page_desc"
-                    style={{
-                        color: "rgb(0, 225, 255)",
-                        position: "absolute",
-                        top: 188,
-                        left: 20,
-                        fontSize: 20,
-                        whiteSpace: "pre-line"
-                    }}
-                >
+                <p id="page_desc" className="flavor-text">
                     &#11166; Welcome to my portfolio website! This is the
                     {'\n'}main home page where you can navigate to
                     {'\n'}other parts of the website. Hover over a 
                     {'\n'}character to get more info on a page.
                 </p>
             </div>
-
         </>
     )
 }

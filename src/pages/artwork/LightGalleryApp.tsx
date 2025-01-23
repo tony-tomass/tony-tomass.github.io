@@ -23,20 +23,52 @@ function LightGalleryApp() {
 
     return (
         <>  
+            <div className="nav-container">
+                <div className="nav-logo">
+                    <a href="../home/index.html">
+                        <img src="../home/img/logo.png" className="logo" />
+                    </a>
+                </div>
+                <div className="nav-button">
+                    <a href="wip.html">
+                        <h2>ABOUT</h2>
+                    </a>
+                </div>
+                <div className="nav-button">
+                    <a href="index.html">
+                        <h2 style={{ color: "white" }}>ARTWORK</h2>
+                    </a>
+                </div>
+                <div className="nav-button">
+                    <a href="wip.html">
+                        <h2>PROJECTS</h2>
+                    </a>
+                </div>
+                <div className="nav-button">
+                    <a href="wip.html">
+                        <h2>OTHER</h2>
+                    </a>
+                </div>
+            </div>
+
+            <div className="site-border" style={{ top: 0, zIndex: 1 }}></div>
+
             <LightGallery
                 onInit={onInit}
                 speed={500}
                 plugins={[lgZoom]}
                 download={false}
                 counter={false}
-                elementClassNames={'container-1'}
+                elementClassNames={'container'}
             >   
                 {imageList.map((image) => (
                     <a href={image.secure_url} className='image-grid'>
-                        <img className='image-gal fade' src={image.secure_url} alt=" " loading='lazy'></img>
+                        <img className='image-gal fade' src={image.secure_url} alt="" loading='lazy'></img>
                     </a>
                 ))}
             </LightGallery>
+
+            <footer className="site-border" style={{ bottom: 0 }}></footer>
         </>
     );
 }
