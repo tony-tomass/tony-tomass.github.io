@@ -13,7 +13,8 @@ Click [here](https://tony-tomass.github.io/home/) to visit the website.
 ### v1.2025.01.22 (Current)
 A new home page has now been added, featuring basic, but real cool hovering effects and other visuals.
 As of this version, the home page is restricted to a specific screen resolution (ie not responsive), so
-how well the home page looks will vary, especially for mobile users.
+how well the home page looks will vary, especially for mobile users. Some features may also be restricted
+depending on the browser and its version.
 
 ### v1.2024.12.18
 New development tools are now being used for the website
