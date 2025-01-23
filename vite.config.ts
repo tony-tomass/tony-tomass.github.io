@@ -19,6 +19,9 @@ export default defineConfig({
                 artwork: resolve(root, 'artwork', 'index.html'),
             }
         }
+    },
+    server: {
+        port: 8000
     }
 },
 )

@@ -1,3 +1,17 @@
+/* Basic Stuff */
+a {
+    text-decoration: none;
+}
+
+h1, h2, p {
+    font-family: Jost;
+}
+
+a:visited {
+    color:white;
+    text-decoration: none;
+}
+
 /* For the navigation stuff ======================== */
 
 .fancy-div{
@@ -23,14 +37,14 @@
 }
 
 .sliding-background {
-    background: url(../img/home_page/char_select_S.png) repeat-y;
+    background: url(img/char_select_S.png) repeat-y;
     height: 1674px; /* Image height x 3 */
     width: 44px;
     animation: slide 10s linear infinite;
 }
 
 .sliding-background-rev {
-    background: url(../img/home_page/char_select_S.png) repeat-y;
+    background: url(img/char_select_S.png) repeat-y;
     height: 1674px; /* Image height x 3 */
     width: 44px;
     animation: slide 10s linear reverse infinite;
