@@ -67,7 +67,7 @@ function HomePage() {
                         className="nav-img"
                         style={{ left: 790 }}
                     />
-                    <a href="../artwork/index.html">
+                    <a href="../artwork/">
                         <img
                             src={artImageHov}
                             className="nav-img hovering"

@@ -26,7 +26,7 @@ function LightGalleryApp() {
         <>  
             <div className="nav-container">
                 <div className="nav-logo">
-                    <a href="../home/index.html">
+                    <a href="../home/">
                         <img src={logo} className="logo" />
                     </a>
                 </div>
@@ -36,7 +36,7 @@ function LightGalleryApp() {
                     </a>
                 </div>
                 <div className="nav-button">
-                    <a href="index.html">
+                    <a href="./">
                         <h2 style={{ color: "white" }}>ARTWORK</h2>
                     </a>
                 </div>
