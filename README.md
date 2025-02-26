@@ -11,6 +11,7 @@ Click [here](https://tony-tomass.github.io/home/) to visit the website.
 ## Version 1
 
 ### v1.2025.02.26 (Current)
+Changes and updates to this website will be slower for the time being, as I continue to work on other projects
 - Updated artworks page
 - Added basic projects page
 
