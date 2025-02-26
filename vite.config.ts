@@ -17,6 +17,8 @@ export default defineConfig({
             input: {
                 home: resolve(root, 'home', 'index.html'),
                 artwork: resolve(root, 'artwork', 'index.html'),
+                projects: resolve(root, 'projects', 'index.html'),
+                wip: resolve(root, 'wip', 'index.html')
             }
         }
     },

@@ -51,7 +51,7 @@ function HomePage() {
                         className="nav-img"
                         style={{ left: 548 }}
                     />
-                    <a href="wip.html">
+                    <a href="../wip/">
                         <img
                             src={aboutImageHov}
                             className="nav-img hovering"
@@ -83,7 +83,7 @@ function HomePage() {
                         className="nav-img"
                         style={{ left: 1032 }}
                     />
-                    <a href="wip.html">
+                    <a href="../projects/">
                         <img
                             src={projectImageHov}
                             className="nav-img hovering"
@@ -99,7 +99,7 @@ function HomePage() {
                         className="nav-img"
                         style={{ left: 1274 }}
                     />
-                    <a href="wip.html">
+                    <a href="../wip/">
                         <img
                             src={otherImageHov}
                             className="nav-img hovering"

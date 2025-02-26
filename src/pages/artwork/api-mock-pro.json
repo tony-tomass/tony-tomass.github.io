@@ -1,0 +1,173 @@
+{
+    "resources": [
+        {
+            "asset_id": "71ea3c3c55326c18b7e91f2652dc3f3c",
+            "public_id": "poster_assignment_edit_cymk_p5da84",
+            "format": "avif",
+            "version": 1740600612,
+            "resource_type": "image",
+            "type": "upload",
+            "created_at": "2025-02-26T20:10:12Z",
+            "bytes": 2108663,
+            "width": 3900,
+            "height": 5700,
+            "backup": true,
+            "asset_folder": "projects_avif",
+            "display_name": "poster_assignment_edit_cymk_p5da84",
+            "url": "http://res.cloudinary.com/divziykvd/image/upload/v1740600612/poster_assignment_edit_cymk_p5da84.avif",
+            "secure_url": "https://res.cloudinary.com/divziykvd/image/upload/v1740600612/poster_assignment_edit_cymk_p5da84.avif",
+            "last_updated": {
+                "tags_updated_at": "2025-02-26T20:10:51+00:00",
+                "updated_at": "2025-02-26T20:10:51+00:00"
+            }
+        },
+        {
+            "asset_id": "972ff96c0971bb157e4573cb301c81a5",
+            "public_id": "IMG_7341_k6iqqf",
+            "format": "avif",
+            "version": 1740600609,
+            "resource_type": "image",
+            "type": "upload",
+            "created_at": "2025-02-26T20:10:09Z",
+            "bytes": 667557,
+            "width": 2550,
+            "height": 3300,
+            "backup": true,
+            "asset_folder": "projects_avif",
+            "display_name": "IMG_7341_k6iqqf",
+            "url": "http://res.cloudinary.com/divziykvd/image/upload/v1740600609/IMG_7341_k6iqqf.avif",
+            "secure_url": "https://res.cloudinary.com/divziykvd/image/upload/v1740600609/IMG_7341_k6iqqf.avif",
+            "last_updated": {
+                "tags_updated_at": "2025-02-26T20:10:51+00:00",
+                "updated_at": "2025-02-26T20:10:51+00:00"
+            }
+        },
+        {
+            "asset_id": "c7faf297c48906f6a71f06f00c51446c",
+            "public_id": "IMG_6808_kyqjme",
+            "format": "avif",
+            "version": 1740600608,
+            "resource_type": "image",
+            "type": "upload",
+            "created_at": "2025-02-26T20:10:08Z",
+            "bytes": 760670,
+            "width": 7973,
+            "height": 3654,
+            "backup": true,
+            "asset_folder": "projects_avif",
+            "display_name": "IMG_6808_kyqjme",
+            "url": "http://res.cloudinary.com/divziykvd/image/upload/v1740600608/IMG_6808_kyqjme.avif",
+            "secure_url": "https://res.cloudinary.com/divziykvd/image/upload/v1740600608/IMG_6808_kyqjme.avif",
+            "last_updated": {
+                "tags_updated_at": "2025-02-26T20:10:51+00:00",
+                "updated_at": "2025-02-26T20:10:51+00:00"
+            }
+        },
+        {
+            "asset_id": "3993a27895c91129c31d7597cede088e",
+            "public_id": "melbourne_bag_if9w7y",
+            "format": "avif",
+            "version": 1740600610,
+            "resource_type": "image",
+            "type": "upload",
+            "created_at": "2025-02-26T20:10:10Z",
+            "bytes": 277798,
+            "width": 3300,
+            "height": 2550,
+            "backup": true,
+            "asset_folder": "projects_avif",
+            "display_name": "melbourne_bag_if9w7y",
+            "url": "http://res.cloudinary.com/divziykvd/image/upload/v1740600610/melbourne_bag_if9w7y.avif",
+            "secure_url": "https://res.cloudinary.com/divziykvd/image/upload/v1740600610/melbourne_bag_if9w7y.avif",
+            "last_updated": {
+                "tags_updated_at": "2025-02-26T20:10:51+00:00",
+                "updated_at": "2025-02-26T20:10:51+00:00"
+            }
+        },
+        {
+            "asset_id": "37dbdf424752bd6ba21f2f0d6dd97c95",
+            "public_id": "IMG_3173_e9xc1v",
+            "format": "avif",
+            "version": 1740600608,
+            "resource_type": "image",
+            "type": "upload",
+            "created_at": "2025-02-26T20:10:08Z",
+            "bytes": 561155,
+            "width": 1920,
+            "height": 1920,
+            "backup": true,
+            "asset_folder": "projects_avif",
+            "display_name": "IMG_3173_e9xc1v",
+            "url": "http://res.cloudinary.com/divziykvd/image/upload/v1740600608/IMG_3173_e9xc1v.avif",
+            "secure_url": "https://res.cloudinary.com/divziykvd/image/upload/v1740600608/IMG_3173_e9xc1v.avif",
+            "last_updated": {
+                "tags_updated_at": "2025-02-26T20:10:51+00:00",
+                "updated_at": "2025-02-26T20:10:51+00:00"
+            }
+        },
+        {
+            "asset_id": "1fed77b18b9ea349b67603b89bc727e5",
+            "public_id": "IMG_3634_cz8xrl",
+            "format": "avif",
+            "version": 1740600608,
+            "resource_type": "image",
+            "type": "upload",
+            "created_at": "2025-02-26T20:10:08Z",
+            "bytes": 199160,
+            "width": 1920,
+            "height": 1920,
+            "backup": true,
+            "asset_folder": "projects_avif",
+            "display_name": "IMG_3634_cz8xrl",
+            "url": "http://res.cloudinary.com/divziykvd/image/upload/v1740600608/IMG_3634_cz8xrl.avif",
+            "secure_url": "https://res.cloudinary.com/divziykvd/image/upload/v1740600608/IMG_3634_cz8xrl.avif",
+            "last_updated": {
+                "tags_updated_at": "2025-02-26T20:10:51+00:00",
+                "updated_at": "2025-02-26T20:10:51+00:00"
+            }
+        },
+        {
+            "asset_id": "eddabab69905ab260cbdb7af5fefd58f",
+            "public_id": "IMG_2496_h61ove",
+            "format": "avif",
+            "version": 1740600607,
+            "resource_type": "image",
+            "type": "upload",
+            "created_at": "2025-02-26T20:10:07Z",
+            "bytes": 190947,
+            "width": 1920,
+            "height": 1920,
+            "backup": true,
+            "asset_folder": "projects_avif",
+            "display_name": "IMG_2496_h61ove",
+            "url": "http://res.cloudinary.com/divziykvd/image/upload/v1740600607/IMG_2496_h61ove.avif",
+            "secure_url": "https://res.cloudinary.com/divziykvd/image/upload/v1740600607/IMG_2496_h61ove.avif",
+            "last_updated": {
+                "tags_updated_at": "2025-02-26T20:10:51+00:00",
+                "updated_at": "2025-02-26T20:10:51+00:00"
+            }
+        },
+        {
+            "asset_id": "9c21001c56397e1c54e925751ad7c490",
+            "public_id": "hanoi_bag_usltdr",
+            "format": "avif",
+            "version": 1740600607,
+            "resource_type": "image",
+            "type": "upload",
+            "created_at": "2025-02-26T20:10:07Z",
+            "bytes": 281112,
+            "width": 3300,
+            "height": 2550,
+            "backup": true,
+            "asset_folder": "projects_avif",
+            "display_name": "hanoi_bag_usltdr",
+            "url": "http://res.cloudinary.com/divziykvd/image/upload/v1740600607/hanoi_bag_usltdr.avif",
+            "secure_url": "https://res.cloudinary.com/divziykvd/image/upload/v1740600607/hanoi_bag_usltdr.avif",
+            "last_updated": {
+                "tags_updated_at": "2025-02-26T20:10:51+00:00",
+                "updated_at": "2025-02-26T20:10:51+00:00"
+            }
+        }
+    ],
+    "next_cursor": "7170f1dc66f88d18785d2b5073406efc7735aab26df056914e4d8b1180b16f0d"
+}

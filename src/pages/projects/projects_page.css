@@ -1,0 +1,53 @@
+/* General Stuff ======================== */
+
+a {
+    text-decoration: none;
+}
+
+h1, h2, p {
+    font-family: Jost;
+}
+
+h2 {
+    color: aqua
+}
+
+p {
+    color: rgb(31, 161, 161);
+}
+
+a:visited {
+    color:white;
+    text-decoration: none;
+}
+
+/* Images and Decoration =============================================== */
+
+.logo {
+    height: 40px;
+    margin: 20px;
+    transform: skew(-19.5deg);
+}
+
+.site-border {
+    border-bottom: 2px solid aqua;
+    position: sticky;
+}
+
+/* Navigation and Containers ============================================== */
+
+.nav-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    border-bottom: 2px solid black;
+    margin: 0;
+}
+
+.nav-logo {
+    flex-grow: 3; text-align: left;
+}
+
+.nav-button {
+    flex-grow: 1; text-align: center;
+}
