@@ -9,7 +9,12 @@ h1, h2, p {
 }
 
 h2 {
-    color: aqua
+    color: aqua;
+    font-size: 28px;
+}
+
+h2:hover {
+    color: white;
 }
 
 p {
@@ -17,14 +22,42 @@ p {
 }
 
 a:visited {
-    color:white;
     text-decoration: none;
+}
+
+/* Text Styles =============================================== */
+
+.title {
+    color: white;
+    font-size: 74px;
+    line-height: 0;
+    height: 0;
+    padding-top: 30px;
+    padding-left: 10px;
+}
+
+.title-desc {
+    color: aqua;
+    font-size: 26px;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.sub-title {
+    padding-top: 30px;
+    color: aqua;
+    font-size: 50px;
+    line-height: 0;
+}
+
+.sub-title-desc {
+    font-size: 18px
 }
 
 /* Images and Decoration =============================================== */
 
 .logo {
-    height: 40px;
+    height: 55px;
     margin: 20px;
     transform: skew(-19.5deg);
 }
@@ -44,10 +77,27 @@ a:visited {
     margin: 0;
 }
 
+.nav-button-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    flex-grow: 1;
+    border-bottom: 2px solid black;
+    margin: 0;
+    padding-right: 10px;
+}
+
 .nav-logo {
-    flex-grow: 3; text-align: left;
+    flex-grow: 2; 
+    text-align: left;
 }
 
 .nav-button {
-    flex-grow: 1; text-align: center;
+    flex-grow: 2; 
+    text-align: center;
+    padding-right: 5px;
+}
+
+.sub-title-container {
+    padding-left: 10px
 }

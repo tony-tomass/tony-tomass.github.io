@@ -56,18 +56,15 @@ function LightGalleryApp() {
 
             <div className="site-border" style={{ top: 0, zIndex: 1 }}></div>
 
-            <div style={{ display: "flex", paddingTop: 30 }}>
-                <div style={{ flexGrow: 1, width: "fit-content", paddingLeft: "10px"}}>
-                    <h1 style={{ color: "white", fontSize: "6vw", lineHeight: 0, height: 0 }}>
-                        PERSONAL WORKS
-                    </h1>
-                    <a href=''>
-                        <h1 style={{ color: "aqua", fontSize: "2vw", lineHeight: 1, height: 25, textAlign: "left" }}>
-                            VIEW FULL GALLERY
-                        </h1>
-                    </a>
-                </div>
-            </div>
+            <h1 className='title'>
+                PERSONAL WORKS
+            </h1>
+            <a href=''>
+                <h1 className='title-desc'>
+                    VIEW FULL GALLERY
+                </h1>
+            </a>
+                    
             <LightGallery
                 onInit={onInit}
                 speed={500}
@@ -83,18 +80,14 @@ function LightGalleryApp() {
                 ))}
             </LightGallery>
 
-            <div style={{ display: "flex", paddingTop: 50 }}>
-                <div style={{ flexGrow: 1, width: "fit-content", paddingLeft: "10px"}}>
-                    <h1 style={{ color: "white", fontSize: "6vw", lineHeight: 0, height: 0 }}>
-                        PROJECTS & COMMISSIONS
-                    </h1>
-                    <a href=''>
-                        <h1 style={{ color: "aqua", fontSize: "2vw", lineHeight: 1, height: 25, textAlign: "left" }}>
-                            VIEW FULL GALLERY
-                        </h1>
-                    </a>
-                </div>
-            </div>
+            <h1 className='title'>
+                PROJECTS & COMMISSIONS
+            </h1>
+            <a href=''>
+                <h1 className='title-desc'>
+                    VIEW FULL GALLERY
+                </h1>
+            </a>
 
             <LightGallery
                 onInit={onInit}
