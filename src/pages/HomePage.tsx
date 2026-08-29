@@ -12,7 +12,7 @@ import projectImageHov from './home/img/p2_0_s.png'
 import otherImage from './home/img/p4_0_inv_2.png'
 import otherImageHov from './home/img/p4_0_s.png'
 
-import './home_page.css'
+import './home/home_page.css'
 
 import { useState } from 'react'
 
