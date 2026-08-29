@@ -15,6 +15,7 @@ export default defineConfig({
         emptyOutDir: true,
         rollupOptions: {
             input: {
+                "": resolve(root, 'index.html'),
                 artwork: resolve(root, 'artwork', 'index.html'),
                 othersArt: resolve(root, 'artwork', 'othersArt', 'index.html'),
                 fanArt: resolve(root, 'artwork', 'fanArt', 'index.html'),
