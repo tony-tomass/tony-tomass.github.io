@@ -7,7 +7,7 @@ const outDir = resolve(__dirname, 'dist')
 
 // https://vite.dev/config/
 export default defineConfig({
-    base: '/tony-tomass.github.io/',
+    base: '/',
     root,
     plugins: [react()],
     build: {
