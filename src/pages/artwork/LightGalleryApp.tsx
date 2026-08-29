@@ -28,7 +28,7 @@ function LightGalleryApp() {
         <>  
             <div className="nav-container">
                 <div className="nav-logo">
-                    <a href="../home/">
+                    <a href="../">
                         <img src={logo} className="logo" />
                     </a>
                 </div>
@@ -37,16 +37,38 @@ function LightGalleryApp() {
                         <h2>ABOUT</h2>
                     </a>
                 </div>
-                <div className="nav-button">
-                    <a href="./">
-                        <h2 style={{ color: "white" }}>ARTWORK</h2>
-                    </a>
+
+                <div className="nav-button dropdown">
+                        <a href="./">
+                            <h2 style={{ color: "white" }}>ARTWORK</h2>
+                        </a>
+                        <div className="dropdown-content">
+                            <a href="./othersArt/">
+                                <p style={{ fontWeight: "bold", color: "aqua" }}>Others Series</p>
+                            </a>
+                            <a href="./fanArt/">
+                                <p style={{ fontWeight: "bold", color: "aqua" }}>Fan Art</p>
+                            </a>
+                            <a href="./schoolWork/">
+                                <p style={{ fontWeight: "bold", color: "aqua" }}>School Work</p>
+                            </a>
+                        </div>
                 </div>
-                <div className="nav-button">
-                    <a href="../projects/">
-                        <h2>PROJECTS</h2>
-                    </a>
+
+                <div className="nav-button dropdown">
+                        <a href="../projects/">
+                            <h2 style={{ color: "aqua" }}>PROJECTS</h2>
+                        </a>
+                        <div className="dropdown-content">
+                            <a href="#">
+                                <p style={{ fontWeight: "bold", color: "aqua" }}>Webcomics</p>
+                            </a>
+                            <a href="#">
+                                <p style={{ fontWeight: "bold", color: "aqua" }}>Programming</p>
+                            </a>
+                        </div>
                 </div>
+
                 <div className="nav-button">
                     <a href="../wip/">
                         <h2>OTHER</h2>
@@ -54,10 +76,13 @@ function LightGalleryApp() {
                 </div>
             </div>
 
+
+
+
             <div className="site-border" style={{ top: 0, zIndex: 1 }}></div>
 
             <h1 className='title'>
-                PERSONAL WORKS
+                OTHERS SERIES
             </h1>
             <a href=''>
                 <h1 className='title-desc'>
@@ -75,13 +100,16 @@ function LightGalleryApp() {
             >   
                 {imageList.map((image) => (
                     <a href={image.secure_url} className='image-grid'>
-                        <img className='image-gal fade' src={image.secure_url} alt="&nbsp;" loading='lazy'></img>
+                        <img className='image-gal fade' src={image.secure_url} alt="ther;" loading='lazy'></img>
                     </a>
                 ))}
             </LightGallery>
 
+
+
+
             <h1 className='title'>
-                PROJECTS & COMMISSIONS
+                SCHOOL WORK
             </h1>
             <a href=''>
                 <h1 className='title-desc'>

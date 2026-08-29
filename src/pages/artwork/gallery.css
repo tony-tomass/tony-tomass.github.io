@@ -83,7 +83,6 @@ a:visited {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    border-bottom: 2px solid black;
     margin: 0;
 }
 
@@ -93,7 +92,11 @@ a:visited {
 
 .nav-button {
     flex-grow: 1; text-align: center;
+    border: 2px black solid;
+    box-sizing: border-box;
 }
+
+
 
 .container {
     display: flex;
@@ -107,6 +110,35 @@ a:visited {
     -webkit-animation: fade 2s;
     animation: fade 2s;
 }
+
+/* Dropdown menus for nav bar ==================================================================== */
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 100%;
+    border-bottom: 2px aqua solid;
+    border-left: 2px aqua solid;
+    border-right: 2px aqua solid;
+    box-sizing: border-box;
+    z-index: 3;
+    background-color: black;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    text-decoration: none;
+    display: block;
+    color: white;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
 
 @-webkit-keyframes fade {
     from {

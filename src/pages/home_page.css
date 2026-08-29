@@ -103,7 +103,7 @@ a:visited {
 }
 
 .sliding-background {
-    background: url(img/char_select_S.png) repeat-y;
+    background: url(home/img/char_select_S.png) repeat-y;
     height: 1674px; /* Image height x 3 */
     width: 44px;
 }

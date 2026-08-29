@@ -1,16 +1,16 @@
-import logo from './img/logo.png'
+import logo from './home/img/logo.png'
 
-import aboutImage from './img/p3_0_inv_2.png'
-import aboutImageHov from './img/p3_0_s.png'
+import aboutImage from './home/img/p3_0_inv_2.png'
+import aboutImageHov from './home/img/p3_0_s.png'
 
-import artImage from './img/p1_0_inv_2.png'
-import artImageHov from './img/p1_0_s.png'
+import artImage from './home/img/p1_0_inv_2.png'
+import artImageHov from './home/img/p1_0_s.png'
 
-import projectImage from './img/p2_0_inv_2.png'
-import projectImageHov from './img/p2_0_s.png'
+import projectImage from './home/img/p2_0_inv_2.png'
+import projectImageHov from './home/img/p2_0_s.png'
 
-import otherImage from './img/p4_0_inv_2.png'
-import otherImageHov from './img/p4_0_s.png'
+import otherImage from './home/img/p4_0_inv_2.png'
+import otherImageHov from './home/img/p4_0_s.png'
 
 import './home_page.css'
 
@@ -138,10 +138,11 @@ function HomePage() {
                     {text}
                 </h1>
                 <p id="page_desc" className="flavor-text">
-                    &#11166; Welcome to my portfolio website! This is the
-                    {'\n'}main home page where you can navigate to
-                    {'\n'}other parts of the website. Hover over a 
-                    {'\n'}character to get more info on a page.
+                    &#11166; Welcome to the tony-tomass website. This is
+                    {'\n'}the home page where you can go to the other
+                    {'\n'}parts of the website. That's really it. This is
+                    {'\n'}just here to look cool. Probably won't work 
+                    {'\n'}that well on mobile.
                 </p>
             </div>
         </>
