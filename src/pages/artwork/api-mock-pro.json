@@ -43,48 +43,6 @@
             }
         },
         {
-            "asset_id": "c7faf297c48906f6a71f06f00c51446c",
-            "public_id": "IMG_6808_kyqjme",
-            "format": "avif",
-            "version": 1740600608,
-            "resource_type": "image",
-            "type": "upload",
-            "created_at": "2025-02-26T20:10:08Z",
-            "bytes": 760670,
-            "width": 7973,
-            "height": 3654,
-            "backup": true,
-            "asset_folder": "projects_avif",
-            "display_name": "IMG_6808_kyqjme",
-            "url": "http://res.cloudinary.com/divziykvd/image/upload/v1740600608/IMG_6808_kyqjme.avif",
-            "secure_url": "https://res.cloudinary.com/divziykvd/image/upload/v1740600608/IMG_6808_kyqjme.avif",
-            "last_updated": {
-                "tags_updated_at": "2025-02-26T20:10:51+00:00",
-                "updated_at": "2025-02-26T20:10:51+00:00"
-            }
-        },
-        {
-            "asset_id": "3993a27895c91129c31d7597cede088e",
-            "public_id": "melbourne_bag_if9w7y",
-            "format": "avif",
-            "version": 1740600610,
-            "resource_type": "image",
-            "type": "upload",
-            "created_at": "2025-02-26T20:10:10Z",
-            "bytes": 277798,
-            "width": 3300,
-            "height": 2550,
-            "backup": true,
-            "asset_folder": "projects_avif",
-            "display_name": "melbourne_bag_if9w7y",
-            "url": "http://res.cloudinary.com/divziykvd/image/upload/v1740600610/melbourne_bag_if9w7y.avif",
-            "secure_url": "https://res.cloudinary.com/divziykvd/image/upload/v1740600610/melbourne_bag_if9w7y.avif",
-            "last_updated": {
-                "tags_updated_at": "2025-02-26T20:10:51+00:00",
-                "updated_at": "2025-02-26T20:10:51+00:00"
-            }
-        },
-        {
             "asset_id": "37dbdf424752bd6ba21f2f0d6dd97c95",
             "public_id": "IMG_3173_e9xc1v",
             "format": "avif",
@@ -142,27 +100,6 @@
             "display_name": "IMG_2496_h61ove",
             "url": "http://res.cloudinary.com/divziykvd/image/upload/v1740600607/IMG_2496_h61ove.avif",
             "secure_url": "https://res.cloudinary.com/divziykvd/image/upload/v1740600607/IMG_2496_h61ove.avif",
-            "last_updated": {
-                "tags_updated_at": "2025-02-26T20:10:51+00:00",
-                "updated_at": "2025-02-26T20:10:51+00:00"
-            }
-        },
-        {
-            "asset_id": "9c21001c56397e1c54e925751ad7c490",
-            "public_id": "hanoi_bag_usltdr",
-            "format": "avif",
-            "version": 1740600607,
-            "resource_type": "image",
-            "type": "upload",
-            "created_at": "2025-02-26T20:10:07Z",
-            "bytes": 281112,
-            "width": 3300,
-            "height": 2550,
-            "backup": true,
-            "asset_folder": "projects_avif",
-            "display_name": "hanoi_bag_usltdr",
-            "url": "http://res.cloudinary.com/divziykvd/image/upload/v1740600607/hanoi_bag_usltdr.avif",
-            "secure_url": "https://res.cloudinary.com/divziykvd/image/upload/v1740600607/hanoi_bag_usltdr.avif",
             "last_updated": {
                 "tags_updated_at": "2025-02-26T20:10:51+00:00",
                 "updated_at": "2025-02-26T20:10:51+00:00"

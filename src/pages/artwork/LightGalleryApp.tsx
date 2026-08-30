@@ -12,6 +12,7 @@ import lgZoom from 'lightgallery/plugins/zoom';
 import { useState } from 'react'
 import images17 from './api-mock-17.json'
 import imagespro from './api-mock-pro.json'
+import fakeassapi from './fake-ass-api.json'
 import logo from '../home/img/logo.png'
 
 function LightGalleryApp() {
@@ -19,7 +20,7 @@ function LightGalleryApp() {
         console.log('lightGallery has been initialized');
     };
 
-    const [imageList, setImageList] = useState(images17.resources)
+    const [imageList, setImageList] = useState(fakeassapi.images)
     const [imageListpro, setImageListpro] = useState(imagespro.resources)
     console.log(setImageList) // Dummy line
     console.log(setImageListpro) // Dummy line
@@ -86,7 +87,7 @@ function LightGalleryApp() {
             </h1>
             <a href=''>
                 <h1 className='title-desc'>
-                    VIEW FULL GALLERY
+                    VIEW MORE ⮞
                 </h1>
             </a>
                     
@@ -99,8 +100,8 @@ function LightGalleryApp() {
                 elementClassNames={'container'}
             >   
                 {imageList.map((image) => (
-                    <a href={image.secure_url} className='image-grid'>
-                        <img className='image-gal fade' src={image.secure_url} alt="ther;" loading='lazy'></img>
+                    <a href={image.url} className='image-grid'>
+                        <img className='image-gal fade' src={image.url} alt={image.date} loading='lazy'></img>
                     </a>
                 ))}
             </LightGallery>
@@ -113,7 +114,7 @@ function LightGalleryApp() {
             </h1>
             <a href=''>
                 <h1 className='title-desc'>
-                    VIEW FULL GALLERY
+                    VIEW MORE ⮞
                 </h1>
             </a>
 
@@ -132,7 +133,10 @@ function LightGalleryApp() {
                 ))}
             </LightGallery>
 
+            
+
             <footer className="site-border" style={{ bottom: 0, paddingTop: 70}}></footer>
+            <p style={{ color: "aqua", textAlign: "center"}}> tony-tomass © 2016-2026 </p>
         </>
     );
 }
