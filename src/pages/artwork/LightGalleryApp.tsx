@@ -10,7 +10,6 @@ import './gallery.css'
 import lgZoom from 'lightgallery/plugins/zoom';
 
 import { useState } from 'react'
-import images17 from './api-mock-17.json'
 import imagespro from './api-mock-pro.json'
 import fakeassapi from './fake-ass-api.json'
 import logo from '../home/img/logo.png'
